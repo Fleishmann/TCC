@@ -1,0 +1,409 @@
+/* LAYOUT */
+
+html,
+body,
+.capa {
+    height: 100%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #D3D3D3;
+}
+
+.panel {
+    background-color: #D3D3D3;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+legend {
+    display: block;
+    width: 320px;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-bottom: 1px solid black;
+}
+
+
+/* Barra de navegação */
+
+.img-central {
+    height: 400px;
+    width: 400px;
+    display: block;
+    background: url('imagens/LogoEconomyCenter.png') no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.img-logo {
+    height: 50px;
+    width: 400px;
+    display: block;
+    background: url('imagens/LogoNavEscrito.png') no-repeat;
+    background-size: contain;
+    color: Red;
+    margin: 0 auto;
+}
+
+.img-logo-rodape {
+    height: 100px;
+    width: 100px;
+    display: block;
+    background: url('imagens/logoSoMarca.png') no-repeat;
+    background-size: contain;
+    color: Red;
+    margin: 0 auto;
+}
+
+.img-login {
+    height: 200px;
+    width: 300px;
+    display: block;
+    background: url('imagens/LOGO BUY HERE.svg') no-repeat;
+    background-size: contain;
+    color: transparent;
+    margin: 0 auto;
+}
+
+.img-back-inicio {
+    background: url('imagens/ImagemIndex.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.img-back-login {
+    background: url('imagens/ImagemTelaLogin.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.img-back-cadastro {
+    background: url('imagens/ImagemTelaCadastro.gif') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.img-back-menu {
+    background: url('imagens/ImagemMenu.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.img-back-produto {
+    background: url('imagens/imagemTelaProduto.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.img-back-venda {
+    background: url('imagens/imagemTelaVenda.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.img-back-estoque {
+    background: url('imagens/imagemTelaEstoque.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.img-back-perfil {
+    background: url('imagens/imagemTelaPerfil.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: #393738;
+    border: none;
+    color: #000;
+}
+
+.navbar-brand {
+    padding: 0px 15px;
+}
+
+.divisor {
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a,
+#rodape .nav a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+#rodape .nav a:hover {
+    color: #9bf0e1;
+    background: none;
+}
+
+
+/* Imagem de capa */
+
+.capa {
+    display: table;
+    width: 100%;
+}
+
+.texto-capa {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.texto-cadastro {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.texto-centro {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.texto-modulos {
+    text-align: center;
+    color: black;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#click-modulos {
+    list-style-type: none;
+}
+
+
+/* Botoes */
+
+.btn-custom {
+    color: #fff13c;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 45px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+
+.btn-roxo {
+    background: #393738;
+    color: #fff13c;
+    box-shadow: 0 5px 0 grey;
+}
+
+.btn-roxo:hover {
+    background: #393738;
+    color: #848447;
+}
+
+.btn-roxo:active {
+    position: relative;
+    top: 5px;
+    box-shadow: 0 3px 0 grey;
+}
+
+.btn-branco {
+    background: #393738;
+    color: #fff13c;
+    box-shadow: 0 5px 0 grey;
+}
+
+.btn-branco:hover {
+    background: #393738;
+    color: #848447;
+}
+
+.btn-branco:active {
+    position: relative;
+    top: 5px;
+    box-shadow: 0 3px 0 grey;
+}
+
+
+/* Seção serviço */
+
+#servicos {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/* Rodapé */
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    bottom: 0;
+    margin-bottom: -40px;
+    width: 100%;
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    bottom: -250px;
+}
+
+.item-rede-social {
+    float: right;
+}
+
+.item-modulos {
+    background: #393738;
+    color: #fff13c;
+    box-shadow: 0 5px 0 grey;
+    margin-bottom: 10px;
+}
+
+.item-modulos:hover {
+    background: #393738;
+    color: #848447;
+}
+
+.item-modulos:active {
+    position: relative;
+    top: 5px;
+    box-shadow: 0 3px 0 grey;
+}
+
+
+/* TIPOGRAFIA */
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    margin-bottom: 50px;
+}
+
+#texto-cadastro {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    color: #FFD700;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 3em;
+    color: #fff13c;
+}
+
+#rodape h4 {
+    color: #919496;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+label {
+    color: black;
+}
+
+#formCadastrarse {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#formPDV {
+    padding-left: 100px;
+}
+
+h3 {
+    /* color: rgb(124, 117, 117); */
+    color: white;
+}
+
+h3:hover {
+    color: #9bf0e1;
+    background: none;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    color: #FFD700;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 3em;
+    color: #fff13c;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50em;
+    border: 1px solid #666;
+    margin-left: center;
+}
+
+thead {
+    background: #ccc url(https://www.devfuria.com.br/html-css/tabelas/bar.gif) repeat-x left center;
+    border-top: 1px solid #a5a5a5;
+    border-bottom: 1px solid #a5a5a5;
+}
+
+tr:hover {
+    background-color: #3d80df;
+    color: black;
+}
+
+thead tr:hover {
+    background-color: transparent;
+    color: inherit;
+}
+
+tr:nth-child(even) {
+    background-color: #edf5ff;
+}
+
+th {
+    font-weight: bold;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 0.1em 1em;
+}
+
+#pdvTotal {
+    margin-left: 900px;
+    margin-top: -25px;
+    width: 30%;
+}
+
+fieldset.scheduler-border {
+    border: solid 1px #DDD !important;
+    padding: 0 10px 10px 10px;
+    border-bottom: none;
+}
