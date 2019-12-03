@@ -66,7 +66,7 @@ $qtd = mysqli_num_rows($resultado_id);
   <div class="capa" style="margin-bottom: -150px;">
     <section class="panel col-lg-12" style="padding-left: 300px;padding-right: 300px;margin-bottom: 200px;">
       <header class="panel-heading">
-        <h2>Dados da busca:</h2>
+        <h2 id="texto-pequeno">Dados da busca:</h2>
       </header>
 
       <?php

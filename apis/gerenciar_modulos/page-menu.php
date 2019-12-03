@@ -55,9 +55,7 @@ if (!isset($_SESSION['usuario'])) {
     <!-- Conteudos -->
     <div class="capa" style="padding-top: 200px;padding-bottom: 200px;">
       <div class="texto-centro">
-        <h2>Modulos de controle do Sistema</h2>
-        <a href="..\gerenciar_PDV\PDV.php" class="btn btn-custom item-modulos btn-lg">PDV</a>
-        <a href="..\gerenciar_venda\page-venda.php" class="btn btn-custom item-modulos btn-lg">Vendas</a>
+        <h2 id="texto-cadastro">Módulos de controle do Sistema</h2>
         <a href="..\gerenciar_estoque\page-estoque.php" class="btn btn-custom item-modulos btn-lg">Estoque</a>
         <a href="..\gerenciar_produtos\page-produtos.php" class="btn btn-custom item-modulos btn-lg">Produtos</a>
       </div>

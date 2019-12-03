@@ -60,7 +60,7 @@ $editado = isset($_GET['editado']) ? ($_GET['editado']) : 0;
     <!-- Conteudos -->
     <div class="capa">
         <form id="buscarProduto" style="margin-left: 500px;margin-right: 500px;margin-bottom: 20px;">
-            Buscar por:<input class="form-control form-control-lg" type="text" name="campo" id="campo">
+            <h6 id="texto-pequeno">Buscar por:</h6><input class="form-control form-control-lg" type="text" name="campo" id="campo">
         </form>
 
         <div id="resultado" style="margin-right: 20px;margin-left: 20px;">
